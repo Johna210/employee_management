@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="src\Api\" />
+      <Folder Include="src\Core\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Contracts\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Dtos\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Exceptions\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Features\EmployeeRoleManagement\Handlers\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Features\EmployeeRoleManagement\Queries\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Profile\" />
+      <Folder Include="src\Core\EmployeeManagement.Application\Responses\" />
+      <Folder Include="src\Core\EmployeeManagement.Domain\Common\" />
+      <Folder Include="src\Infrastructure\" />
+      <Folder Include="test\" />
+    </ItemGroup>
+
+</Project>
