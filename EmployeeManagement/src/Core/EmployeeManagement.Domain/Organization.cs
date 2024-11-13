@@ -2,7 +2,7 @@ using EmployeeManagement.Core.EmployeeManagement.Domain.Common;
 
 namespace EmployeeManagement.Core.EmployeeManagement.Domain;
 
-public class Employee: BaseDomainEntity
+public class Organization : BaseDomainEntity
 {
-    public Guid ParentId { get; set; }
+    public List<Organization> Children { get; set; } = new List<Organization>();
 }
